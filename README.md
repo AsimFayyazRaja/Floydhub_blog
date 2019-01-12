@@ -30,4 +30,22 @@ deep Convolutional Neural Network (CNN). CNNs are state of the art models for im
 Those screenshots are then added to their respective folders and pie chart is also saved. 
 
 ## Results
-So far this application classifies screenshot in 6 categories that are facebook, youtube, stack overflow, gmail, coding and others.
+So far this application classifies screenshot in 6 categories that are facebook, youtube, stack overflow, gmail, coding and others. The cross validation accuracy obtained so far is 94.5% on these 6 categories. The class others mean that
+any screenshot that doesn't fall in these categories goes to others. During testing these were the results:-
+
+![ Results ](pppp3.jpg)
+
+## Evaluation
+For visual evaluation purposes, when this application was being made CNN was tested extensively. Also by plotting screenshot
+given to the nework and the predicted class. The only problem was that the screenshots of facebook and youtube, when watching
+videos in full screen were indistinguishable. Becuase they look exactly the same, sometimes when control bar is displayed
+only then can CNN classify them correctly otherwise it is just a random coin toss between both classes, because even a human
+can't tell whether a video is of youtube or facebook if played in full screen mode. These are some of the results of the
+predictions made by the CNN network, the misclassified ones are circled:-
+
+![ Results ](pppp2.jpg)
+
+And the pie graph is made by dividing occurence of one class by the total number of screenshots taken and then multiplied
+by 100 to make it a percentage. So the ultimate goal is to just make employer aware of the fact that what his/her
+employee is really doing and what's nicer than a colorful pie-chart depicting whole day's performance? Below is an example image shown of the pie chart made after some pre defined interval:-
+
