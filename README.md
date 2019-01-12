@@ -49,3 +49,4 @@ And the pie graph is made by dividing occurence of one class by the total number
 by 100 to make it a percentage. So the ultimate goal is to just make employer aware of the fact that what his/her
 employee is really doing and what's nicer than a colorful pie-chart depicting whole day's performance? Below is an example image shown of the pie chart made after some pre defined interval:-
 
+![ Results ](pppp5.jpg)
