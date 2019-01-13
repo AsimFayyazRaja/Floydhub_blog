@@ -27,7 +27,9 @@ is same and just sidebars are different.
 ## Working
 So, the application runs when the computer starts. The screenshots are taken after some random interval of time by the node js application and are saved in a specific folder. After some time the node js application runs the model which is built using 
 deep Convolutional Neural Network (CNN). CNNs are state of the art models for image classifiation so that's why they are used.
-Those screenshots are then added to their respective folders and pie chart is also saved. 
+Those screenshots are then added to their respective folders and pie chart is also saved. The network's architecture is shown below:-
+
+![ Architecture ](pppp4.png)
 
 ## Results
 So far this application classifies screenshot in 6 categories that are facebook, youtube, stack overflow, gmail, coding and others. The cross validation accuracy obtained so far is 94.5% on these 6 categories. The class others mean that
