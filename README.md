@@ -16,7 +16,7 @@ So these are the basic steps done in this application:
 - Takes screenshots after some random time of your computer screen
 - After some time screenshot classifier executes and organizes screenshots in respective folders
 - A pie graph is saved also which tells which applicaton/activity was used how frequently
-- This process continues until computer shutdown
+- This process continues until computer shutdown or the application is closed
 
 ## Dataset
 The most important factor of any deep learning application is data. The larger and bigger the data, the better the application
@@ -50,3 +50,22 @@ by 100 to make it a percentage. So the ultimate goal is to just make employer aw
 employee is really doing and what's nicer than a colorful pie-chart depicting whole day's performance? Below is an example image shown of the pie chart made after some pre defined interval:-
 
 ![ Results ](pppp5.jpg)
+
+
+## Dependencies
+The following libraries are necessary for the deep learning model to work
+
+```
+Python3
+Tflearn
+Tensorflow
+```
+
+And the following libraries are necessary for the node js script to work i.e. taking screenshots, starting application
+and calling the model after some intervals
+
+```
+electron-screenshot-service
+fs
+glob
+```
